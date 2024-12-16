@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Math"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/eng"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:hint="English"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/sci"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Science"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/swa"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Kiswahili"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Computer"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/baby_blue"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/totalView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Total"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/avgView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Average"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/gradeView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Grade"
+        android:textSize="20sp" />
+</LinearLayout>
